@@ -24,18 +24,21 @@ class For:
         # for i in range(12, 3, -3):
         #     print("i:{}".format(i), end=" ")
     
-        longitud = len(dato)
-        print(dato[0])
-        print(dato[1])
-        print(dato[2])
-        print("")
-        j = 0
-        while j < longitud:
-            print("While:{}".format(j), dato[j], end=" ")
-            j += 1
-        print("")
-        for i in range(longitud-1, -1, -1):
-            print("For:{}".format(i), dato[i], end=" ")
+        # longitud = len(dato)
+        # print(dato[0])
+        # print(dato[1])
+        # print(dato[2])
+        # print("")
+        # j = 0
+        # while j < longitud:
+        #     print("While:{}".format(j), dato[j], end=" ")
+        #     j += 1
+        # print("")
+        # for i in range(longitud-1, -1, -1):
+        #     print("For:{}".format(i), dato[i], end=" ")
+    
+        for i, dato in enumerate(numeros):
+            print("For:", i, dato)
 
 
 use_of_for = For()
