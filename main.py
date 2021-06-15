@@ -15,8 +15,11 @@ class For:
         # for i in range(5):
         #     print("i: {}".format(i))
     
-        for i in range(2, 10):
-            print("i: {}".format(i))
+        # for i in range(2, 10):
+        #     print("i: {}".format(i))
+    
+        for i in range(4, 10, 2):
+            print("i:{}".format(i), end=" ")
 
 
 use_of_for = For()
