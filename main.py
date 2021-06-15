@@ -43,8 +43,12 @@ class For:
         # for dato in numeros:
         #     print("Dato:", dato)
     
-        for dato in ['H', 'o', 'l', 'a', 'que', 'tal']:
-            print("Dato:", dato)
+        # for dato in ['H', 'o', 'l', 'a', 'que', 'tal']:
+        #     print("Dato:", dato)
+
+        print("Diccionario de notas.")
+        for llave, valor in profesor.items():
+            print(llave + ":" + str(valor), end=" ")
 
 
 use_of_for = For()
