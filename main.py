@@ -47,8 +47,12 @@ class For:
         #     print("Dato:", dato)
 
         print("Diccionario de notas.")
-        for llave, valor in profesor.items():
-            print(llave + ":" + str(valor), end=" ")
+        # for llave, valor in profesor.items():
+        #     print(llave + ":" + str(valor), end=" ")
+
+        for estudiante in lista_estudiantes:
+            for llave, valor in estudiante.items():
+                print(llave + ":" + str(valor), end="  ")
 
 
 use_of_for = For()
